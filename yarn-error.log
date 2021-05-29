@@ -1,0 +1,67 @@
+Arguments: 
+  D:\ProgramFiles\node-v14.17.0-win-x64\node.exe D:\ProgramFiles\node-v14.17.0-win-x64\node_modules\yarn\bin\yarn.js add prop-types
+
+PATH: 
+  D:\ProgramFiles\cmder\vendor\git-for-windows\cmd;D:\ProgramFiles\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\ProgramFiles\cmder\vendor\conemu-maximus5;D:\ProgramFiles\cmder\vendor\conemu-maximus5\ConEmu;C:\Python38-32\Scripts\;C:\Python38-32\;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\ryowu\AppData\Roaming\npm;C:\MinGW\bin;C:\Users\ryowu\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ryowu\AppData\Local\Programs\Python\Python39\;C:\Users\ryowu\scoop\shims;C:\Ruby27-x64\bin;C:\Ruby25-x64\bin;C:\Users\ryowu\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Python38-32;C:\Program Files (x86)\Python38-32\Scripts;C:\Users\ryowu\go\bin;C:\Users\ryowu\.deno\bin;C:\Users\ryowu\AppData\Local\Microsoft\WindowsApps;C:\flutter\bin;C:\Users\ryowu\AppData\Local\Programs\Microsoft VS Code\bin;D:\ProgramFiles\gradle-6.8.3\bin;D:\ProgramFiles\sublime_text_build_4107_x64;D:\ProgramFiles\node-v14.17.0-win-x64;D:\ProgramFiles\cmder\vendor\git-for-windows\mingw64\bin;D:\ProgramFiles\cmder\vendor\git-for-windows\usr\bin;D:\ProgramFiles\cmder\vendor\bin;D:\ProgramFiles\cmder
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\ryowu\AppData\Local\Yarn\Cache\v6\npm-webpack-dev-server-3.11.2-695ebced76a4929f0d5de7fd73fafe185fe33708-integrity\node_modules\webpack-dev-server\client\index.js' -> 'C:\RyowuTestCode\reactTest\webpack-config\node_modules\webpack-dev-server\client\index.js'
+
+npm manifest: 
+  {
+    "name": "webpack-starters",
+    "version": "1.0.0",
+    "private": true,
+    "description": "A collection of different Webpack setups for quick referencing or starting from",
+    "scripts": {
+      "start": "cross-env SERVE=true webpack serve",
+      "watch": "webpack --watch",
+      "build": "cross-env NODE_ENV=production webpack",
+      "build-dev": "webpack",
+      "clean": "rm -rf ./dist"
+    },
+    "author": "Jimmy DC",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.12.10",
+      "@babel/plugin-proposal-class-properties": "^7.13.0",
+      "@babel/preset-env": "^7.12.11",
+      "@babel/preset-react": "^7.12.10",
+      "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+      "babel-loader": "^8.2.2",
+      "clean-webpack-plugin": "^3.0.0",
+      "cross-env": "^7.0.3",
+      "css-loader": "^5.0.1",
+      "html-webpack-plugin": "^5.0.0-beta.5",
+      "mini-css-extract-plugin": "^1.3.4",
+      "nanoid": "^3.1.23",
+      "postcss": "^8.2.4",
+      "postcss-loader": "^4.1.0",
+      "postcss-preset-env": "^6.7.0",
+      "react-refresh": "^0.9.0",
+      "sass": "^1.32.4",
+      "sass-loader": "^10.1.1",
+      "webpack": "^5.11.1",
+      "webpack-cli": "^4.3.0",
+      "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
